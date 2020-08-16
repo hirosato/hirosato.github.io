@@ -14,5 +14,5 @@ toStringはこれだね。
 ### [2 Channels](https://go-tour-jp.appspot.com/concurrency/2)
 並列処理をするときに、ロックだとか待つだとか、そういうことを意識しなくてよい。メインのスレッドとのやり取りするときに同期したりもいらない。神。
 
-### [Range and Close](https://go-tour-jp.appspot.com/concurrency/4)
+### [4 - Range and Close](https://go-tour-jp.appspot.com/concurrency/4)
 rangeで終わるまで引き出せる。
