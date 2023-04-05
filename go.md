@@ -17,7 +17,7 @@ GoはGoogleでのソフトウェア開発のなかで見つかった課題に対
 
 # Goの21世紀的特徴
 
-#### Concurrency / 並列処理
+#### Concurrency / 並行処理
 GoではGreen Thread(OSのスレッドではなく、ユーザーレベルのスレッド。)が主要な言語機能の1つとして実装されている。
 C10K問題、Nonblocking I/O、kqueue、epoll、java.nioといったキーワードが登場する歴史の中で、並列処理をEventで実現するやり方(nodejs等)とThreadで解決するやり方(java.nio等)があり、それぞれ長所短所があるが、Goのgo routine(前述のGreen ThreadのGoでの呼び方)が良いところどりであるということ。
 //TODO いかに良いところどりなのかが読み取り切れていない。
